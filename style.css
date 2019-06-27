@@ -1,14 +1,17 @@
+* {
+    box-sizing: border-box;
+}
 header{
-    padding: 20px;
+    padding: 5px;
     margin-bottom: 10px;
     background-color: #ebebeb;  
     text-align: center; 
-    margin-top: 10px; 
+    /* margin-top: 10px;  */
     height: 70px; 
 }
 
 nav{
-    padding: 20px;
+    padding: 5px;
     margin-bottom: 20px;
     background-color: #ebebeb;  
     text-align: center; 
@@ -37,7 +40,7 @@ nav{
     clear:both;  
     text-align: center; 
     overflow: auto; 
-    margin-bottom: 20px; 
+    margin-bottom: 10px; 
 
 }
 
@@ -45,7 +48,7 @@ nav{
     color: #ebebeb;  
     background-color: #777;  
     margin: 10px; 
-    height: 220px; 
+    height: 200px; 
     margin-top: 30px; 
 }
 
@@ -54,16 +57,18 @@ nav{
     background-color: #ebebeb; 
     margin-top: 50px; 
     height: 60px; 
-    margin: 15px; 
-    margin-bottom: 5px; 
+    margin: 10px; 
+    padding: 5px; 
 }
 
 .p{
     color:#777;  
     background-color: #ebebeb;  
     height: 60px; 
-    margin: 15px; 
+    margin: 10px; 
     text-align: center; 
+    margin-bottom: 5px; 
+    padding: 5px; 
 }
 .aside{
     float: left;
@@ -80,6 +85,7 @@ nav{
     text-align: center; 
     background-color:#ebebeb;  
     margin-top: 350px;
-    height: 120px;
+    height: 70px;
+    padding: 5px;
 
 } 
